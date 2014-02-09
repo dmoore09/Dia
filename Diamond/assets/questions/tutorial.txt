@@ -1,0 +1,9 @@
+Welcome to diamond city! Swipe the screen to go through the cards and learn to play!
+In Diamond City all cards contain a question. All players must answer the question for each card
+If a player gets a hot seat card only they answer
+If a player gets a diamond then they drink
+Questions can be favorited by clicking the pink diamond button on the top right of the screen. 
+Favorite Questions can be edited in settings
+You can create your own questions in settings
+When playing the you can start a new game by pressing the icon button
+Press the icon button to return to the start screen. Have fun!

@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose the Rating of you questions"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="67dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radioDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="X-Rated" />
+
+        <RadioButton
+            android:id="@+id/radioDialog1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PG" />
+    </RadioGroup>
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/logosmall"
+        android:layout_gravity="left"
+        android:scaleType="centerInside"
+        android:showAsAction="always"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="false"
+        android:title="home" />
+    <item
+        android:id="@+id/favorite"
+        android:icon="@drawable/favoritessmall"
+        android:showAsAction="always"
+        android:title="fav" />
+</menu>

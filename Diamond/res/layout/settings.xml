@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/options" >
+
+    <Button
+        android:id="@+id/fav"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tutorial"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="13dp"
+        android:onClick="myFav"
+        android:background="@android:color/transparent"
+         />
+
+    <Button
+        android:id="@+id/my"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/fav"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="62dp"
+        android:onClick="myQues"
+        android:background="@android:color/transparent"
+         />
+
+    <Button
+        android:id="@+id/tutorial"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/fav"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/tutorial1"
+        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_below="@+id/fav"
+        android:background="@android:color/transparent"
+        android:onClick="tutorial"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
